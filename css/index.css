@@ -84,7 +84,19 @@ body{
     animation-iteration-count: 1;
     animation-play-state: paused;
     animation-fill-mode: forwards;
-    animation-delay: var(---mouseHover);
+}
+
+.windows:hover{
+    animation: windowsHover 0.5s linear;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+.windows:hover::after{
+    animation: windowsUnhover 0.5s linear;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
 }
 
 @keyframes flouPlusRetrecissement{
@@ -123,6 +135,11 @@ body{
 }
 @keyframes windowsHover{
     to{
-    filter: blur(5px);
+    filter: blur(100px);
+    }
+}
+@keyframes windowsUnhover{
+    to{
+        filter: blur(0px);
     }
 }
