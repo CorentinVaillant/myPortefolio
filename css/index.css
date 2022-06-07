@@ -67,18 +67,14 @@ body{
     animation-play-state: paused;
     animation-fill-mode: forwards;
     animation-delay: calc(var(--scroll) * -5s);
-
-
-
-
-
+}
+.aligne{
+    padding-top: 5%;
+    padding-left: 5%;
 }
 .windows{
     border-radius: 5px;
     width: 20%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 10%;
 
     animation: windowsHover 0.5s linear;
     animation-iteration-count: 1;
