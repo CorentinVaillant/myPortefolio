@@ -1,0 +1,28 @@
+body {
+    font-family: Ubuntu;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.futura-sciences.com%2Fbuildsv6%2Fimages%2Fwide1920%2F7%2F8%2Fa%2F78a16c8cac_114277_03-751.jpg&f=1&nofb=1&ipt=b4cb3198c1fcba636b39e1bd8fcdacac8bc2b98ad8e2b8a0c572b883beb49cd4&ipo=images");	/*image en fond de la page*/
+    background-size: cover;									/*taille du fond*/
+  }
+
+
+  header{
+	text-align:center;		/* Centrage du texte "Title" */
+	color:black;			/*couleur du texte*/
+	background:#EAEDED;		/*couleur du fond*/
+
+    padding-top: 0%;
+}
+
+  .realbody{
+	/*mise en page du contenu*/
+	color: #ffffffff; 					/*couleur du texte*/
+	margin-top:5%;						/*espace entre le haut et le cadre du texte*/
+	margin-right:5%;					/*espace entre la bordure droite et le cadre du texte*/
+	margin-left:5%;						/*espace entre la bordure gauche et le cadre du texte*/
+	font-size:xx-large;					/*taille de la police*/
+	text-align: center;					/*centre le texte*/
+	background-color: #323232a1;		/*couleur du cadre*/
+	border-radius: 10px 10px 10px 10px;	/*arrondie les bords*/
+	box-shadow:-5px 5px 0px #323232d0;	/*rajoute ombre aux  bord*/
+
+}
