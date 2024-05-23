@@ -1,6 +1,6 @@
 body {
     font-family: Ubuntu;
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.futura-sciences.com%2Fbuildsv6%2Fimages%2Fwide1920%2F7%2F8%2Fa%2F78a16c8cac_114277_03-751.jpg&f=1&nofb=1&ipt=b4cb3198c1fcba636b39e1bd8fcdacac8bc2b98ad8e2b8a0c572b883beb49cd4&ipo=images");	/*image en fond de la page*/
+    background-image: url("images/chat.jpg");	/*image en fond de la page*/
     background-size: cover;									/*taille du fond*/
   }
 
