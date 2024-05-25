@@ -64,8 +64,8 @@ nav {
 .bigTitle {
     font-size: 300%;
 
-    margin-right: 33% ;
-    margin-left: 33%;
+    margin-right: 13% ;
+    margin-left: 13%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,18 +81,15 @@ nav {
     padding-top: 0%;
 }
 
-  .realbody{
-	/*mise en page du contenu*/
-	color: var(--prim-text-color); 					/*couleur du texte*/
-	margin-top:5%;						/*espace entre le haut et le cadre du texte*/
-	margin-right:5%;					/*espace entre la bordure droite et le cadre du texte*/
-	margin-left:5%;						/*espace entre la bordure gauche et le cadre du texte*/
-	font-size:xx-large;					/*taille de la police*/
-	text-align: center;					/*centre le texte*/
-	background-color: #323232a1;		/*couleur du cadre*/
-	border-radius: 10px 10px 10px 10px;	/*arrondie les bords*/
-	box-shadow:-5px 5px 0px #323232d0;	/*rajoute ombre aux  bord*/
+  .content{
+	margin-right: 20%;
+	margin-left: 20%;
 
+    padding-left: 1%;
+    padding-right: 1%;
+
+    background-color: gray;
+    color: var(--prim-text-color);
 }
 
 
