@@ -32,6 +32,8 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
+
+    z-index: -1;
 }
 
 #background::before {
@@ -42,12 +44,12 @@ nav {
     left: -50%;
     top: -50%;
 
-    z-index: -100;
+    z-index: -1;
     background: url("images/background_icon.jpg") 0 0 repeat;
     transform: rotate(5deg);
     overflow: hidden;
 
-    background-size: 64px;	
+    background-size: 128px;	
     animation: constantMovement 10s linear infinite;
 }
     
@@ -57,7 +59,7 @@ nav {
         background-position: 0px 0px;
     }
     100% {
-        background-position: 64px 0px;
+        background-position: 128px 0px;
     }
 }
 
@@ -82,14 +84,19 @@ nav {
 }
 
   .content{
+    
 	margin-right: 20%;
 	margin-left: 20%;
+
+    margin-top: 0%;
+    padding-bottom: 0%;
 
     padding-left: 1%;
     padding-right: 1%;
 
     background-color: gray;
     color: var(--prim-text-color);
+    
 }
 
 
